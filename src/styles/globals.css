@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-style{
+    @apply bg-white shadow-lg shadow-gray-300 rounded lg:p-10 p-3 mb-5
+}
+
+.postcart-style{
+    @apply bg-white overflow-hidden shadow-lg shadow-gray-300 rounded   mb-5
+}
+
+.navbarButton{
+    @apply gap-1 py-2 my-2
+}
+
+.profile-links{
+    @apply flex  items-center justify-center gap-1 pt-3 px-4 filter shadow-slate-200
+}
+.profile-links:hover{
+    @apply  underline scale-110 cursor-pointer transition-all duration-300;
+}
+
+
+.navbarButton:hover{
+    @apply bg-blue-300 -mx-2 px-2 rounded-md
+    transition-all duration-300 scale-110
+    shadow-md shadow-gray-300 bg-opacity-50;
+}
+
+.postDropdownItem{
+    @apply hover:text-blue-500 cursor-pointer transition-all duration-300 flex items-center gap-2  ;
+}
+
+.postDropdownItemIcons{
+    @apply text-xl
+}
+.login-button{
+    @apply flex items-center gap-2 text-xl;
+}
+.login-button:hover{
+   @apply hover:underline hover:text-blue-500 transition-all duration-300 hover:scale-105 ;
+}
+
+
+
+
+
